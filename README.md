@@ -1,12 +1,7 @@
-<h1 align="center"> ⚡️ DevFolio ⚡️</h1>
+<h1 align="center"> ⚡️ konsila Systemberatung Landing page ⚡️</h1>
 
-[![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/AnilSeervi/DevFolio/blob/master/README.md) ![Github Stars](https://img.shields.io/github/stars/anilseervi/DevFolio?color=%23c471ed&style=for-the-badge) ![Github forks](https://img.shields.io/github/forks/anilseervi/DevFolio?color=%23f64f59&style=for-the-badge) ![GitHub deployments](https://img.shields.io/github/deployments/anilseervi/DevFolio/github-pages?label=Deploy&logo=github&style=for-the-badge)
-
-## A Modern Portfolio Template for Developers!
-
-<h2 align="center">
-  <img src="assets/devfolio.gif" alt="Devfolio" />
-</h2>
+Forked from:
+https://github.com/AnilSeervi/DevFolio
 
 ## Features
 
@@ -30,9 +25,11 @@ Here's a **Complete Guide** to walk you through the process of setting your own 
 
 You'll need [VSCode](https://code.visualstudio.com/) and [Git](https://git-scm.com/) installed on your computer.
 
+Unfortunately theres no build command.
+
 You'll also need these two extensions [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) installed in your VSCode.
 
-Press <kbd>F1</kbd> and Search for _Open Settings(JSON)_ and paste the below code before the closing braces( `}` ).
+Press <kbd>F1</kbd> and Search for _Open Workspace Settings (JSON)_ and paste the below code before the closing braces( `}` ).
 
 ```json
 "liveSassCompile.settings.generateMap": false,
@@ -49,22 +46,6 @@ Press <kbd>F1</kbd> and Search for _Open Settings(JSON)_ and paste the below cod
 
 ---
 
-## How To Use 🔧
-
-In VSCode, Open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
-
-```bash
-# Clone this repository
-$ git clone https://github.com/AnilSeervi/DevFolio.git
-
-# Go into the repository
-$ cd DevFolio
-
-# Remove current origin repository
-$ git remote remove origin
-```
-
-And delete the [`.github`](./.github) folder as you don't need it.
 
 Now Simply click on **Watch Sass** and **Go Live** in the Status Bar.
 
